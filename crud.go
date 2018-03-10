@@ -41,7 +41,18 @@ func getStudent(id int) {
 	fmt.Println(student)
 }
 
+func UpdateStudent()  {
+	student := Student{
+		ID:2,
+		Name:"Sony",
+		Age:30,
+		Active:true}
+
+
+	Update(student)
+}
+
 
 func main() {
-	Delete(1)
+	UpdateStudent()
 }

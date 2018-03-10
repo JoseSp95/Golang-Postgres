@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7529c997-8c3c-42ca-904f-41c8f857fd4e" name="Default" comment="" />
+    <list default="true" id="7529c997-8c3c-42ca-904f-41c8f857fd4e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/crud.go" afterPath="$PROJECT_DIR$/crud.go" />
+      <change beforePath="$PROJECT_DIR$/student.go" afterPath="$PROJECT_DIR$/student.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,18 +61,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="student.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="student.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+            <state relative-caret-position="482">
+              <caret line="216" column="10" lean-forward="false" selection-start-line="216" selection-start-column="10" selection-end-line="216" selection-end-column="10" />
               <folding>
                 <element signature="e#14#102#0" expanded="true" />
                 <element signature="n#!!block;n#GetAll#0" expanded="false" />
                 <element signature="n#!!block;n#GetByID#0" expanded="false" />
                 <element signature="n#!!block;n#Delete#0" expanded="false" />
-                <marker date="1520666004731" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
-                <marker date="1520666004731" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+                <marker date="1520669095855" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
+                <marker date="1520669095855" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+                <marker date="1520669095855" expanded="true" signature="2645:2731" ph="update estudiantes... " />
               </folding>
             </state>
           </provider>
@@ -83,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crud.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="crud.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crud.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="465">
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -142,6 +148,7 @@
         <option value="$PROJECT_DIR$/Student1.go" />
         <option value="$PROJECT_DIR$/Student.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/student.go" />
         <option value="$PROJECT_DIR$/crud.go" />
       </list>
@@ -178,7 +185,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -195,7 +204,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="Golang+Postgresql" type="cbb8eebc:String" user="Golang+Postgresql" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +283,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15431164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -272,7 +292,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38803682" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297546" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.398773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -307,8 +327,9 @@
             <element signature="n#!!block;n#GetAll#0" expanded="false" />
             <element signature="n#!!block;n#GetByID#0" expanded="false" />
             <element signature="n#!!block;n#Delete#0" expanded="false" />
-            <marker date="1520666004731" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
-            <marker date="1520666004731" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
+            <marker date="1520669095855" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="2645:2731" ph="update estudiantes... " />
           </folding>
         </state>
       </provider>
@@ -345,8 +366,9 @@
             <element signature="n#!!block;n#GetAll#0" expanded="false" />
             <element signature="n#!!block;n#GetByID#0" expanded="false" />
             <element signature="n#!!block;n#Delete#0" expanded="false" />
-            <marker date="1520666004731" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
-            <marker date="1520666004731" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
+            <marker date="1520669095855" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="2645:2731" ph="update estudiantes... " />
           </folding>
         </state>
       </provider>
@@ -374,22 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56e05693-dcab-499e-bb89-1628a1967f01/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/96d7f24c/56e05693-dcab-499e-bb89-1628a1967f01/gocrud.public.estudiantes">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -408,18 +414,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/56e05693-dcab-499e-bb89-1628a1967f01/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/student.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="165" column="0" lean-forward="true" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+        <state relative-caret-position="482">
+          <caret line="216" column="10" lean-forward="false" selection-start-line="216" selection-start-column="10" selection-end-line="216" selection-end-column="10" />
           <folding>
             <element signature="e#14#102#0" expanded="true" />
             <element signature="n#!!block;n#GetAll#0" expanded="false" />
             <element signature="n#!!block;n#GetByID#0" expanded="false" />
             <element signature="n#!!block;n#Delete#0" expanded="false" />
-            <marker date="1520666004731" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
-            <marker date="1520666004731" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="279:350" ph="INSERT INTO estudiantes" />
+            <marker date="1520669095855" expanded="true" signature="2278:2315" ph="DELETE from estudiantes... " />
+            <marker date="1520669095855" expanded="true" signature="2645:2731" ph="update estudiantes... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

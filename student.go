@@ -163,3 +163,62 @@ func Delete(id int) (err error){
 	}
 	return
 }
+
+func Update(student Student) (err error){
+	query := `update estudiantes set name = $1, age = $2, active = $3, updated_at = now() where id = $4`
+	db := GetConnection()
+	defer db.Close()
+
+	ps, err := db.Prepare(query)
+	if err != nil{
+		return
+	}
+
+	var name sql.NullString
+	var age sql.NullInt64
+	var active sql.NullBool
+	//var updatedAt pq.NullTime
+
+	if student.Name == ""{
+		name.Valid = false
+	} else{
+		name.Valid = true
+		name.String = student.Name
+	}
+
+	if student.Age == 0{
+		age.Valid = false
+	} else{
+		age.Int64 = int64(student.Age)
+	}
+
+	active.Valid = true
+	active.Bool = student.Active
+
+	/*
+	if student.UpdatedAt.IsZero(){
+		updatedAt.Valid = false
+	} else{
+		updatedAt.Valid = true
+		updatedAt.Time = student.UpdatedAt
+	}
+	*/
+
+
+	resulset, err := ps.Exec(student.Name, student.Age, student.Active, student.ID)
+	if err != nil{
+		return
+	}
+
+	rows, err:= resulset.RowsAffected()
+
+	if err != nil{
+		return
+	}
+
+	if rows != 1{
+		return errors.New("se esperaba 1 fila afectada")
+	}
+
+	return
+}
